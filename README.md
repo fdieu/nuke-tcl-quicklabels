@@ -1,4 +1,4 @@
-# nuke-tcl-quicklabel
+# nuke-tcl-quicklabels
 nuke tcl quicklabel expressions
 
 http://www.dieuferg.us/post/nuke-tcl-quick-label-expressions
