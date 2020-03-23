@@ -1,0 +1,26 @@
+Read
+----
+location: [value this.file]
+format: [value this.format]
+range: [value this.first] - [value this.last]
+localization: [value this.localizationPolicy]
+colorspace: [value this.colorspace]
+
+
+PostageStamp
+------------
+location: [value this.input.file]
+format: [value this.input.format]
+range: [value this.input.first] - [value this.input.last]
+localization: [value this.input.localizationPolicy]
+colorspace: [value this.input.colorspace]
+
+
+menu.py
+-------
+
+## Additional custom knob defaults
+
+nuke.knobDefault("Read.label","location: [value this.file]\\n format: [value this.format]\\n range: [value this.first] - [value this.last]\\n localization: [value this.localizationPolicy]\\n colorspace: [value this.colorspace]")
+
+nuke.knobDefault("PostageStamp.label","location: [value this.input.file]\\n format: [value this.input.format]\\n range: [value this.input.first] - [value this.input.last]\\n localization: [value this.input.localizationPolicy]\\n colorspace: [value this.input.colorspace]")
