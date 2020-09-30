@@ -15,6 +15,15 @@ range: [value this.input.first] - [value this.input.last]
 localization: [value this.input.localizationPolicy]
 colorspace: [value this.input.colorspace]
 
+# Reference topnode
+location: [value [topnode].file]]
+format: [value [topnode].format]
+range: [value [topnode].first] - [value [topnode].last]
+localization: [value [topnode].localizationPolicy]
+colorspace: [value [topnode].colorspace]
+
+
+
 
 menu.py
 -------
